@@ -54,6 +54,7 @@
             this.Sounds.Size = new System.Drawing.Size(782, 364);
             this.Sounds.TabIndex = 2;
             this.Sounds.Click += new System.EventHandler(this.Selected);
+            this.Sounds.DoubleClick += new System.EventHandler(this.Sounds_DoubleClick);
             // 
             // newSound
             // 
